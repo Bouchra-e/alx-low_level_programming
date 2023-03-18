@@ -1,25 +1,19 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - print the alphabet in lowercase, except q and e.
  *
- * Return: Always 0 (success)
- */
-
+ * Return: 0
+*/
 int main(void)
 {
-	char i = 'a';
-	char k = 'A';
+	char letter;
 
-	while (i <= 'z')
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(i);
-		i++;
-	}
-	while (k <= 'Z')
-	{
-		putchar(k);
-		k++;
+		if (letter != 'e' && letter != 'q')
+		putchar(letter);
 	}
 	putchar('\n');
+
 	return (0);
 }
