@@ -4,8 +4,9 @@
  *
  * @s: the string to be measured.
  *
- *return: The length of the string.
+ * return: The length of the string.
  */
+/* betty-style */
 int _strlen_recursion(char *s)
 {
 if (*s == '\0')
