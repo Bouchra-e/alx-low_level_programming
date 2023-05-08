@@ -1,0 +1,18 @@
+task0
+write a function that allocates memory using malloc
+- prototype: void *malloc_checked(unsigned int b)
+- return a ponter to the allocated lelory
+- if malloc fails, the malloc_checked funtion should cause normal process termination with a status value of 98
+
+task 1
+write a function that concatenates two strings 
+-protype : char *string_nconcat(char *s1, char *s2, unsigned int n);
+-they returned pointer shall point to newly allocated space in memory, which s1, followed by the firt n bytes of s2, and null terminated 
+-if the function fails, it should be return NULL 
+-if n is greater or equal to th length of s2 then use the entire string s2
+-NULL is passed, treat it as an empty string 
+
+task 2
+write a function that allocates memory for an array, using malloc 
+-prototype: void *_calloc (unsigned int nmemb, unsigned int sze);
+-the 
